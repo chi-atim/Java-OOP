@@ -1,7 +1,5 @@
 /**
  * This is a class that simulates a dog a person might own.
- * @author Chiemi Mita
- * @since 2019-01-17
  */
 public class Dog {
 	enum Sex {male, female};
