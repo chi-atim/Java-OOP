@@ -1,10 +1,10 @@
 import java.util.Scanner;
 /**
  * This is a class that contains methods that check various patterns
- * @author Chiemi Mita
- * @since 2019-01-10
  */
+
 public class PatternMatcher {
+
 	/**
 	 * This is a method that checks if a string is a palindrome
 	 * @param str the string to check
@@ -75,32 +75,32 @@ public class PatternMatcher {
 	}
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);		
-		System.out.println("Enter the string to check: ");
+		System.out.print("Enter the string to check: ");
 		String str = input.nextLine();
 		
 		String result = "The string: " + str;
 		if (isPalindrome(str)){
-			result += "\nis a palindrome.";
+			result += "\n\tis a palindrome.";
 		}
 		else {
-			result += "\nis not a palindrome.";
+			result += "\n\tis not a palindrome.";
 		}
 		
 		if (containsVowel(str)){
-			result += "\ncontains at least one vowel.";
+			result += "\n\tcontains at least one vowel.";
 		}
 		else {
-			result += "\ndoes not contain a vowel";
+			result += "\n\tdoes not contain a vowel";
 		}
 		
 		if (containsRepeats(str)){
-			result += "\nhas repeats.";
+			result += "\n\thas repeats.";
 		}
 		else {
-			result += "\nhas no repeats.";
+			result += "\n\thas no repeats.";
 		}		
-		result += "\n" +str + " becomes: " + performSwap(str);
-		System.out.println(result);
+		result += "\n\t" +str + " becomes: " + performSwap(str);
+		System.out.println("\t"+result);
 		input.close();
 	}
 }
