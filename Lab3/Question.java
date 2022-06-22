@@ -1,7 +1,5 @@
 /**
  * This is a class that simulates short-answer style questions to be placed on a quiz.
- * @author Chiemi Mita
- * @since 2019-01-24
  */
 public class Question {
 	private String question, answer;
