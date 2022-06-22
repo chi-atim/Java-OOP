@@ -1,8 +1,3 @@
-/**
- * 
- * @author J. McKee-Scott
- *
- */
 public class Account {
 	private int number;
 	private double balance;
